@@ -984,9 +984,6 @@ textarea:focus {
           transform: rotate(-90deg);
 }
 
-.no-webp .steps__container{
-  background: url(../img/step/bg.png) 340px 0/65% 100% no-repeat; }
-
 .steps__body {
   display: -ms-grid;
   display: grid;
@@ -1354,12 +1351,20 @@ textarea {
         -ms-flex: 1 0 50%;
             flex: 1 0 50%;
   }
+
+  .no-webp .steps__container{
+    background: url(../img/step/bg.png) 0 0/100% 100% no-repeat; }
 }
 
 @media (min-width: 48.06125em) {
   .body-main__title {
     width: 35rem;
   }
+}
+
+@media (min-width: 61.99875em) {
+  .no-webp .steps__container{
+    background: url(../img/step/bg.png) 340px 0/65% 100% no-repeat; }
 }
 
 @media (min-width: 76.875em) {
@@ -1905,20 +1910,11 @@ textarea {
     bottom: 5%;
     position: fixed;
   }
-
-  .no-webp .steps__container{
-    background: url(../img/step/bg.png) 0 0/100% 100% no-repeat; }
 }
 
 @media (max-width: 61.99875em) and (max-width: 75em) {
   .main__phone {
     left: 1.25rem;
-  }
-}
-
-@media (max-width: 61.99875em) and (max-width: 47.99875em) {
-  .steps__container {
-    background: none;
   }
 }
 
@@ -2423,10 +2419,6 @@ textarea {
 
   .swiper-button-left {
     margin: 0rem 10% 0rem 40%;
-  }
-
-  .steps__container {
-    background: none;
   }
 
   .steps__body {
@@ -4173,18 +4165,21 @@ textarea {
 
 .webp .columns-options_fry{ background: url(../img/options/03.webp) 0 0/100% 100% no-repeat; }
 
-.webp .steps__container{ background: url(../img/step/bg.webp) 340px 0/65% 100% no-repeat; }
-
 .webp .work{ background: url(../img/work/bg.webp) 0 0/100% 100% no-repeat; }
 
 .webp .contacts__body{ background: url(../img/bg.webp) 0 0/100% 100% no-repeat; }
 
+@media (min-width: 47.99875em){
+
+  .webp .steps__container{ background: url(../img/step/bg.webp) 0 0/100% 100% no-repeat; }
+}
+
+@media (min-width: 61.99875em){
+
+  .webp .steps__container{ background: url(../img/step/bg.webp) 340px 0/65% 100% no-repeat; }
+}
+
 @media (max-width: 440px){
 
   .webp .contacts__body{ background: url(../img/bg.webp) 50% 50%/90% 60% no-repeat; }
-}
-
-@media (max-width: 61.99875em){
-
-  .webp .steps__container{ background: url(../img/step/bg.webp) 0 0/100% 100% no-repeat; }
 }
