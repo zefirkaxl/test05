@@ -1916,6 +1916,12 @@ textarea {
   }
 }
 
+@media (max-width: 61.99875em) and (max-width: 47.99875em) {
+  .steps__container {
+    background: none;
+  }
+}
+
 @media (max-width: 60.625em) {
   .cards-project {
     gap: 0.3125rem;
