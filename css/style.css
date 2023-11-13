@@ -1856,6 +1856,10 @@ textarea {
     min-height: 100vh;
   }
 
+  .logo {
+    margin-bottom: 2.5rem;
+  }
+
   .popup__wrapper {
     min-width: 100%;
     min-height: 100vh;
@@ -1864,6 +1868,18 @@ textarea {
   .popup__content {
     border-radius: 0;
     min-height: 100vh;
+  }
+
+  .menu__list {
+    gap: 6.25rem;
+  }
+
+  .menu__item {
+    font-size: 2rem;
+  }
+
+  .menu__button {
+    margin-top: 2.5rem;
   }
 }
 
@@ -2286,8 +2302,8 @@ textarea {
   }
 
   .header._header-scroll {
-    padding-bottom: 0.3125rem;
-    padding-top: 0.4375rem;
+    padding-bottom: 0.9375rem;
+    padding-top: 1.0625rem;
     top: 0;
   }
 
