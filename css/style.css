@@ -1853,14 +1853,17 @@ textarea {
 @media (max-width: 575px) {
   .popup {
     padding: 0px 0px;
+    min-height: 100vh;
   }
 
   .popup__wrapper {
     min-width: 100%;
+    min-height: 100vh;
   }
 
   .popup__content {
     border-radius: 0;
+    min-height: 100vh;
   }
 }
 
